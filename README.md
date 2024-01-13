@@ -1,5 +1,5 @@
 # keysequencer
-SW, electronics, and 3d design for a simple USB key sequencer
+SW, electronics, and 3d design for a simple USB key sequencer. Can for example be used to send a sequence of keypresses to a PC or peripheral upon a button press.
 # Software
 Currently the software is a quite simple Arduino program
 # Hardware
