@@ -8,6 +8,8 @@ The hardware design is a simple PCB, on which the keys can be soldered. Readout 
 The mechanic design is a stack of 3 PCBs with 3d printed spacers in between. Two options (and/or combi of these 2 options) can be done:
 - Use the dedicated designs for bottom, top, and middle. You'll need to order 3 different PCBs for this however
 - Using only the middle ('functional') PCB for bottom, top, and middle. This saves ordering 3 types of PCB, but leaves you with some holes in the bottom and top PCB.
+The spacers for in between the PCB's can be 3d printed. Connecting everything together can be done using standard m3 screws. Thanks to my Dad for designing (and 3d printing) the spacers.
+If you donot have a 3d printer, you can also use standard spacers (e.g. 4x3mm spacer or longer for the bottom and 4x 7mm or longer for the top)
 # License
 This is licensed as open source HW / SW (GPLv3 for SW). Feel free to use it.
 # TODO
