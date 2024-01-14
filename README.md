@@ -1,7 +1,14 @@
 # keysequencer
 SW, electronics, and 3d design for a simple USB key sequencer. Can for example be used to send a sequence of keypresses to a PC or peripheral upon a button press.
 # Software
-Currently the software is a quite simple Arduino program
+Currently the software is a quite simple Arduino program.
+Used settings:
+- Raspberry pi pico/RP2040 boards package v 3.6.3 (
+https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json)
+- Board Waveshare RP2040 zero
+- Debug port: Serial
+- USB stack: Pico SDK 
+
 # Hardware
 The hardware design is a simple PCB, on which the keys can be soldered. Readout of the keys and making the programmed keysequences is done by using an off the shelff (Waveshare) RP2040 zero board.
 # Mechanics

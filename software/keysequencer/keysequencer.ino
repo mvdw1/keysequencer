@@ -5,8 +5,8 @@
 #include <Keyboard.h>
 #include "keys.h"
 // Switching keysequences can be done (for now) by changing which header is included
-//#include "key_sequence_test.h"
-#include "key_sequence_manhattan.h"
+#include "key_sequence_test.h"
+//#include "key_sequence_manhattan.h"
 #define INTER_PRESS_RELEASE_DELAY 5
 #define INTER_KEY_DELAY 45
 #define DEBOUNCE_DELAY 50
@@ -64,10 +64,10 @@ void keyboardTask() {
           Serial.println(i);
           pressKeys(KEY_SEQUENCES[i], INTER_PRESS_RELEASE_DELAY, INTER_KEY_DELAY);
           // Mark as pressed
-          BUTTON_PRESSED[i] = 1;
+          btnPressed[i] = 1;
         }
       } else {
-        BUTTON_PRESSED[i] = 0;
+        btnPressed[i] = 0;
       }
     }
     delay(DEBOUNCE_DELAY);  // Debouncing delay TODO make actual debounce
